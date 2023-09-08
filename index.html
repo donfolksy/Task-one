@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- container -->
+    <div class="container">
+      <header>
+        <div class="profile">
+          <h2 data-testid="slackUserName">Akinlose Sunday Folorunsho</h2>
+          <div class="image">
+            <img
+              src="/images/sunday.jpg"
+              alt="Akinlose Sunday Folorunsho"
+              data-testid="slackDisplayImage"
+            />
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="main-container">
+          <div class="sub-container">
+            <p>Day :</p>
+            <p data-testid="currentDayOfTheWeek">Monday</p>
+          </div>
+          <div class="sub-container">
+            <p>Current UTC Time :</p>
+            <p data-testid="currentUTCTime">12:00 PM UTC</p>
+          </div>
+          <div class="sub-container">
+            <p>Track :</p>
+            <p data-testid="myTrack">Frontend</p>
+          </div>
+          <div class="sub-container">
+            <p>Github Link :</p>
+            <a href="" data-testid="githubURL">Visit Github</a>
+          </div>
+        </div>
+      </main>
+    </div>
+    <!-- end of container -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
